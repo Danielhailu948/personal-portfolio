@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <div className="text-purple-400 font-semibold tracking-widest text-sm uppercase">ABOUT ME</div>
+            <div className="text-purple-400 font-semibold tracking-widest text-3xl uppercase">ABOUT ME</div>
 
             <h2 className="mt-3 text-2xl lg:text-3xl font-bold text-zinc-50 leading-tight">
               Passionate Frontend Developer
