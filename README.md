@@ -1,16 +1,26 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Personal Portfolio — Daniel Hailu
+ 
+A modern, dark-themed personal portfolio built with **React + Vite**, styled with **Tailwind CSS**, and enhanced with **Framer Motion** animations.  
+Includes sections for **Hero**, **About**, **Featured Projects** (with modal details), and a **Contact** area with an animated orbit social-links UI.
+ 
+## Tech Stack
+ 
+- **React 18**
+- **Vite 5**
+- **Tailwind CSS 3** (dark mode via `class`)
+- **Framer Motion** (section + modal animations, orbit animation)
+- **React Icons**
+ 
+## Features
+ 
+- **Responsive layout** with a clean UI and sticky navigation
+- **Dark theme** by default (`<html class="dark">`)
+- **Animated sections** using shared Framer Motion variants
+- **Projects showcase**
+  - project cards
+  - modal for detailed project info
+  - data-driven from [src/data/projectsData.js](cci:7://file:///c:/Users/DELL%201/CascadeProjects/personal-portfolio/src/data/projectsData.js:0:0-0:0)
+- **Contact section**
+  - animated orbit system of social links
+  - data-driven from [src/data/socialLinks.js](cci:7://file:///c:/Users/DELL%201/CascadeProjects/personal-portfolio/src/data/socialLinks.js:0:0-0:0)
+ 
